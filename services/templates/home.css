@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#nimg{
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+}
+.nav-item a:active{
+    text-decoration: underline orange;
+
+}
+.nav-item a:hover{
+    color: black;
+    text-decoration: underline orange;
+}
+.navbar-nav li{
+    text-align: center;
+    padding: 5px 20px;
+}
+.div3 .list-unstyled a:hover{
+    text-decoration: underline orange;
+    
+}
+.div3-1 a:hover{
+    background-color: orange;
+}
+.main-btn{
+    display: inline-block;
+    border-radius: 50px;
+    transform: all .4s ease-in-out;
+    padding: 10px 27px;
+    background-color: transparent;
+    border: 2px solid gray;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.main-btn:hover{
+    background-color: orange;
+    border-color: orange;
+    color: white;
+}
+input{
+    width: 80%;
+    border-top-left-radius: 5px;
+    transform: all .4s ease-in-out;
+    padding: 6px 25px;
+    background-color: gainsboro;
+    border: 2px solid gainsboro;
+    border-bottom: 2px solid orange;
+}
+input[type=text]:focus {
+    border: 2px solid orange;
+    background-color: gainsboro;
+
+}
+.divi i{
+    border-top-right-radius: 5px;
+    transform: all .4s ease-in-out;
+    padding: 10px;
+    margin-left: -5PX;
+    border: 2px solid orange;
+    color: black;
+    background-color: orange;
+}
+.text{
+    border: 2px solid orange;
+}
+address a{
+    color: white;
+    text-decoration: none;
+}
+.list-unstyled a{
+    text-decoration: none;
+    color:black;
+}
+.list-unstyled a:hover{
+    text-decoration: underline;
+}
+.div2{
+    text-align: center;
+    justify-content: center;
+}
+.link a:hover {
+    background-color: orange;
+    color: white;
+
+}
+.div3{
+    padding: 50px;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .div1{
+        display: none;
+        text-align: center;
+        margin: none;
+    }
+    .connect{
+        margin: none;
+    }
+    .div2 img{
+        justify-content: center;
+
+    }
+}
